@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "modifying through api 2",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

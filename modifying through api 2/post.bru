@@ -1,0 +1,19 @@
+meta {
+  name: post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3010/menu/create
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"sungjin",
+    "description":"shadow_monarch",
+    "price":900000
+  }
+}

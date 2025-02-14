@@ -1,0 +1,17 @@
+meta {
+  name: update
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3010/menu/update/67ae1d13c59c71312f66fa25
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"Ayanokoji"
+  }
+}
